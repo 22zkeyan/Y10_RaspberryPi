@@ -24,6 +24,11 @@ namespace Y10_RaspberryPi
                 controller.ClosePin(pin);
                 Thread.Sleep(lightTime);
             }
+
+            Console.WriteLine("Press a key:");
+            Console.ReadLine();
+
+
         }
     }
 }
